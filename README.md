@@ -3,6 +3,27 @@
 ## Docker Instructions
 
 ## Setup & Run Simulation
+* Launch the world in a new terminal
+```
+roslaunch apbot_description main.launch
+```
+
+* Spawn trash
+```
+rosrun apbot_description trash_spwaner.py
+```
+
+* Spawn dustbins
+```
+rosrun apbot_description dustbin_spawner.py
+```
+
+* Spawn markings
+```
+rosrun apbot_description marking_spawner.py
+```
+
+* Move around and place objects appropriately
 
 ## Trash pickup and drop
 
