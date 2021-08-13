@@ -1,8 +1,8 @@
 # Artpark Robotics Challenge
 
-## Docker Instructions
+## 1. Docker Instructions
 
-## Setup & Run Simulation
+## 2. Setup & Run Simulation
 * Launch the world in a new terminal
 ```
 roslaunch apbot_description main.launch
@@ -35,10 +35,10 @@ rosrun apbot_description robot.launch
 rosrun apbot_nav apbot_sequence.py
 ```
 
-## Trash pickup and drop
+## 3. Trash pickup and drop
 
-## Cleaning markings
+## 4. Cleaning markings
 
-## Counter & Sink spray and wipe
+## 5. Counter & Sink spray and wipe
 
-## Object detection
+## 6. Object detection
