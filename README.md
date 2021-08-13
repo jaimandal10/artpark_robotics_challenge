@@ -23,7 +23,7 @@ rosrun apbot_description dustbin_spawner.py
 rosrun apbot_description marking_spawner.py
 ```
 
-* ###Move around and place objects appropriately
+### Move around and place objects appropriately
 
 ## Trash pickup and drop
 
