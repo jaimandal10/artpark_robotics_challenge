@@ -25,6 +25,16 @@ rosrun apbot_description marking_spawner.py
 
 ### Move around and place objects appropriately
 
+* Spawn robot
+```
+rosrun apbot_description robot.launch
+```
+
+* Start run
+```
+rosrun apbot_nav apbot_sequence.py
+```
+
 ## Trash pickup and drop
 
 ## Cleaning markings
