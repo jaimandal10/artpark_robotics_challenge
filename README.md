@@ -2,6 +2,11 @@
 
 ## 1. Docker Instructions
 
+```
+git clone https://github.com/jaimandal10/artpark_robotics_challenge.git
+. run.sh
+```
+
 ## 2. Setup & Run Simulation
 * Launch the world in a new terminal
 ```
