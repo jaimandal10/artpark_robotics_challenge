@@ -8,6 +8,10 @@ git clone https://github.com/jaimandal10/artpark_robotics_challenge.git
 ```
 
 ## 2. Setup & Run Simulation
+* To run the following commands in the docker container ,open a new terminal and run
+```
+docker exec -it  artpark_workspace_sim_container bash
+```
 * Launch the world in a new terminal
 ```
 roslaunch apbot_description main.launch
