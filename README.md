@@ -4,6 +4,7 @@
 
 ```
 git clone https://github.com/jaimandal10/artpark_robotics_challenge.git
+cd artpark_robotics_challenge
 . run.sh
 ```
 
