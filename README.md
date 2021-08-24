@@ -1,6 +1,6 @@
 # Artpark Robotics Challenge
 
-## 1. Docker and World Bringup (The following with build docker and launch the world in gazebo)
+## 1. Docker and World Bringup (The following will build docker and launch the world in gazebo)
 
 ```
 git clone https://github.com/jaimandal10/artpark_robotics_challenge.git
