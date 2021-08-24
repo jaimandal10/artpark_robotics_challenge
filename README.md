@@ -8,15 +8,7 @@ cd artpark_robotics_challenge
 . run.sh
 ```
 
-## 2. Robot and othet elements Bringup
-* Open a new terminal and run
-```
-docker exec -it  artpark_workspace_sim_container bash
-```
-* Launch the robot
-```
-roslaunch apbot_description robot.launch
-```
+## 2. Load trash, dustbins & markings (move them around)
 
 * Open a new terminal and run
 ```
@@ -48,22 +40,24 @@ docker exec -it  artpark_workspace_sim_container bash
 rosrun apbot_description marking_spawner.py
 ```
 
-### Move around and place objects appropriately
+## 3. Launch the robot
 
 * Spawn robot
 ```
 rosrun apbot_description robot.launch
 ```
 
+## 4. Start the run
+
 * Start run
 ```
 rosrun apbot_nav apbot_sequence.py
 ```
 
-## 3. Trash pickup and drop
+## 5. Trash pickup and drop
 
-## 4. Cleaning markings
+## 6. Cleaning markings
 
-## 5. Counter & Sink spray and wipe
+## 7. Counter & Sink spray and wipe
 
-## 6. Object detection
+## 8. Object detection
