@@ -15,6 +15,12 @@ cd artpark_robotics_challenge
 docker exec -it  artpark_workspace_sim_container bash
 ```
 
+* Make scripts executable
+```
+chmod +x artpark_workspace/src/GigaRoboticsArtpark/apbot_nav/scripts/*
+chmod +x artpark_workspace/src/GigaRoboticsArtpark/apbot_description/scripts/*
+```
+
 * Spawn trash
 ```
 rosrun apbot_description trash_spwaner.py
