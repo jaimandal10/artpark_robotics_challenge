@@ -43,7 +43,7 @@ RUN apt-get install ros-noetic-move-base-* -y
 RUN apt-get install ros-noetic-tf -y
 RUN apt-get install libgeographic-dev -y
 RUN apt-get install geographiclib-tools -y
-RUN apt-get install python3-tk
+RUN apt-get install python3-tk -y
 RUN source /opt/ros/noetic/setup.bash && \
     mkdir -p $BOBBLE_WS/src && \
     cd $BOBBLE_WS/src && \
