@@ -9,6 +9,8 @@
 
 ## 3. Counter & Sink spray and wipe
 ![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/spray.gif)
+![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/wipe.gif)
+
 
 ## 4. Object detection
 
