@@ -63,7 +63,7 @@ rosrun apbot_nav apbot_sequence.py
 ## 5. Trash pickup and drop
 
 ## 6. Cleaning markings
-![Alt Text](https://drive.google.com/file/d/1iRrev7xRrd-5Bz3nlWF9L2PneZAIA8ax/view?usp=sharing)
+![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/marking_cleaning.gif)
 
 ## 7. Counter & Sink spray and wipe
 
