@@ -37,7 +37,6 @@ For the perception capabilities required for some of the above tasks, custom dat
 
 
 
-https://arxiv.org/abs/2004.10934
 ## 7. Docker and World Bringup (The following will build docker and launch the world in gazebo)
 
 ```
