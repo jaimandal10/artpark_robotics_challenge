@@ -35,8 +35,7 @@ For the perception capabilities required for some of the above tasks, custom dat
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/trash.png)
-  |  ![](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/detection.jpeg)
+![](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/trash.png)|  ![](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/detection.jpeg)
 
 
 
