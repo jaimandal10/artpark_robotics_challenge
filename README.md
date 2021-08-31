@@ -31,6 +31,9 @@ The arm grips the sponge cleaner and wipes the sanitization liquid on the counte
 
 ## 6. Object detection
 
+For the perception required for some of the above tasks custom datasets trained on the YOLOv4 Object Detection architecture used along with an infernence pipeline designed using OpenCV. The datasets used for training were created from images taken by us and a few images from the simulation environment. The images were annotated and converted to the training format (which was YOLO Darknet in this case) using an online tool called ![Roboflow](https://docs.roboflow.com/). They provide an interface to upload images and create datasets suited to a particular training format. 
+
+
 
 ## 7. Docker and World Bringup (The following will build docker and launch the world in gazebo)
 
