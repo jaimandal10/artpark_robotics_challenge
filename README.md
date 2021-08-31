@@ -1,5 +1,8 @@
 # Artpark Robotics Challenge
 
+## 1. The Robot
+The robot has a footprint of 45x45 cm. The robot has 4 mecanum wheels, which enable holonomic motion. The robot has an RPLidar A1 sensor laser sensor which is present in the base of the robot. The lidar is mainly used for autonomous navigation. On the base, the robot has a 6 DoF robotic arm which is used to pick and place trash, spray and wipe. The gripper of the arm has an Intel D435 camera mounted on it. This is used for pose estimation of various items in the washroom and for 3D obstacle avoidance.
+
 ## 1. Trash picking
 The camera on the arm is used to detect the trash as soon as it enters the washroom. Then, the robot moves to the detected trash items. Once it gets to a trash item, it detects it again to increase precision and accuracy. It then gets posoition of the trash item (the camera is a depth camera).
 
