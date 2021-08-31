@@ -60,7 +60,9 @@ rosrun apbot_description robot.launch
 rosrun apbot_nav apbot_sequence.py
 ```
 
-## 5. Trash pickup and drop
+## 5. Trash picking
+![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/trash_picking.gif)
+
 
 ## 6. Cleaning markings
 ![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/marking_cleaning.gif)
