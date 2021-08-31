@@ -30,7 +30,10 @@ The arm grips the sponge cleaner and wipes the sanitization liquid on the counte
 
 
 ## 6. Object detection
+![](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/yolo.png)
+![](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/opencv.png)
 
+![](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/roboflow.png)
 For the perception capabilities required for some of the above tasks, custom datasets trained on the ![YOLOv4](https://arxiv.org/abs/2004.10934) Object Detection architecture, which is a state of the art object detection model, was used along with an infernence pipeline designed using OpenCV. The datasets used for training were created from images taken by us and a few images from the simulation environment. The images were annotated and converted to the training format (which was YOLO Darknet in this case) using an online tool called ![Roboflow](https://docs.roboflow.com/). They provide an interface to upload images and create datasets suited to a particular training format. The two datasets used in a our projects are the trash-marking dataset and the dustbin dataset.
  Dataset            |  Detection
 :-------------------------:|:-------------------------:
