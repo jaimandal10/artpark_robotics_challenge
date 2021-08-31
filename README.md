@@ -1,6 +1,18 @@
 # Artpark Robotics Challenge
 
-## 1. Docker and World Bringup (The following will build docker and launch the world in gazebo)
+## 1. Trash picking
+![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/trash_picking.gif)
+
+
+## 2. Cleaning markings
+![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/marking_cleaning.gif)
+
+## 3. Counter & Sink spray and wipe
+
+## 4. Object detection
+
+
+## 5. Docker and World Bringup (The following will build docker and launch the world in gazebo)
 
 ```
 git clone https://github.com/jaimandal10/artpark_robotics_challenge.git
@@ -8,7 +20,7 @@ cd artpark_robotics_challenge
 . run.sh
 ```
 
-## 2. Load trash, dustbins & markings (move them around)
+## 6. Load trash, dustbins & markings (move them around)
 
 * Open a new terminal and run
 ```
@@ -46,27 +58,16 @@ docker exec -it  artpark_workspace_sim_container bash
 rosrun apbot_description marking_spawner.py
 ```
 
-## 3. Launch the robot
+## 7. Launch the robot
 
 * Spawn robot
 ```
 rosrun apbot_description robot.launch
 ```
 
-## 4. Start the run
+## 8. Start the run
 
 * Start run
 ```
 rosrun apbot_nav apbot_sequence.py
 ```
-
-## 5. Trash picking
-![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/trash_picking.gif)
-
-
-## 6. Cleaning markings
-![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/marking_cleaning.gif)
-
-## 7. Counter & Sink spray and wipe
-
-## 8. Object detection
