@@ -35,7 +35,7 @@ For the perception capabilities required for some of the above tasks, custom dat
 
 ![](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/trash.png)
 
-
+![](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/detection.jpeg)
 
 ## 7. Docker and World Bringup (The following will build docker and launch the world in gazebo)
 
