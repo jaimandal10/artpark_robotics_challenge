@@ -31,7 +31,7 @@ The arm grips the sponge cleaner and wipes the sanitization liquid on the counte
 
 ## 6. Object detection
 <p align="center">
- ![Kitten](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/yolo.png){: width=150 height=100 style="float:right; padding:16px"}
+ <img src="https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/yolo.png" width="125"/>
  <img src="https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/roboflow.png" width="125"/> <img src="https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/opencv.png" width="125"/> 
 </p>
 
