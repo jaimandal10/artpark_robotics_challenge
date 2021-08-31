@@ -1,16 +1,26 @@
 # Artpark Robotics Challenge
 
 ## 1. Trash picking
+The camera on the arm is used to detect the trash as soon as it enters the washroom. Then, the robot moves to the detected trash items. Once it gets to a trash item, it detects it again to increase precision and accuracy. It then gets posoition of the trash item (the camera is a depth camera).
+
 ![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/trash_picking.gif)
 
 
 ## 2. Cleaning markings
+The robot is equipped with a mop below its base, which can be lifted and lowered, and is used to clean the markings on the floor.
+
 ![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/marking_cleaning.gif)
 
+
 ## 3. Counter Spray
+The gripper of the robot is equipped with a nozzle, which is used to spray sanitization liquid on the counter.
+
 ![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/spray.gif)
 
+
 ## 4. Counter Wipe
+The arm grips the sponge cleaner and wipes the sanitization liquid on the counter.
+
 ![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/wipe.gif)
 
 
