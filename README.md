@@ -44,8 +44,6 @@ For the perception capabilities required for some of the above tasks, custom dat
 </p>
 
 
-
-
 ## 7. Docker and World Bringup (The following will build docker and launch the world in gazebo)
 
 ```
@@ -60,31 +58,23 @@ cd artpark_robotics_challenge
 ```
 docker exec -it  artpark_workspace_sim_container bash
 ```
-
+* Source the workspace
+```
+source artpark_workspace/devel/setup.bash
+```
 * Make scripts executable
 ```
 chmod +x artpark_workspace/src/GigaRoboticsArtpark/apbot_nav/scripts/*
 chmod +x artpark_workspace/src/GigaRoboticsArtpark/apbot_description/scripts/*
 ```
-
 * Spawn trash
 ```
-rosrun apbot_description trash_spwaner.py
-```
-
-* Open a new terminal and run
-```
-docker exec -it  artpark_workspace_sim_container bash
+rosrun apbot_description trash_spawner.py
 ```
 
 * Spawn dustbins
 ```
-rosrun apbot_description dustbin_spawner.py
-```
-
-* Open a new terminal and run
-```
-docker exec -it  artpark_workspace_sim_container bash
+rosrun apbot_description dustbin_spwaner.py
 ```
 
 * Spawn markings
@@ -93,15 +83,40 @@ rosrun apbot_description marking_spawner.py
 ```
 
 ## 9. Launch the robot
-
+* Open a new terminal and run
+```
+docker exec -it  artpark_workspace_sim_container bash
+```
+* Source the workspace
+```
+source artpark_workspace/devel/setup.bash
+```
 * Spawn robot
 ```
-rosrun apbot_description robot.launch
+roslaunch apbot_description robot.launch
 ```
 
 ## 10. Start the run
-
-* Start run
+* Open a new terminal and run
 ```
-rosrun apbot_nav apbot_sequence.py
+docker exec -it  artpark_workspace_sim_container bash
+```
+* Source the workspace
+```
+source artpark_workspace/devel/setup.bash
+```
+* Start run (all tasks)
+```
+rosrun apbot_nav main_sequence.py
+```
+
+### Performing individual tasks (These runs are to be run separately from the above main sequence)
+
+* To perform only markings cleaning and trash pick and place
+```
+rosrun apbot_nav trash_markings_sequence.py
+```
+* To perform only spraying and wiping sequence
+```
+rosrun apbot_nav spray_sequence.py
 ```
