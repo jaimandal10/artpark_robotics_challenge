@@ -92,9 +92,14 @@ docker exec -it  artpark_workspace_sim_container bash
 source artpark_workspace/devel/setup.bash
 ```
 * Spawn robot
+### Please do not move the robot after launching(This affects the map building as it starts as soon as the robot is launched). Please specify the desired launch coordinates in the terminal while launching. You can use the image as reference to estimate the coordinates of your desired location.
+
 ```
-roslaunch apbot_description robot.launch
+roslaunch apbot_description robot.launch x:="2.5" y:="-0.8" yaw:="-3.14"
 ```
+
+<img src="https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/robot_poses.png" width="500"/>
+
 
 ## 10. Start the run
 * Open a new terminal and run
