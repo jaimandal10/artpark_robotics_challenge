@@ -20,7 +20,7 @@ The robot is equipped with a mop below its base, which can be lifted and lowered
 ## 4. Counter Spray
 The gripper of the robot is equipped with a nozzle, which is used to spray sanitization liquid on the counter.
 
-![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/spray.gif)
+![Alt Text](https://github.com/jaimandal10/artpark_robotics_challenge/blob/main/media/spray_sim.gif)
 
 
 ## 5. Counter Wipe
